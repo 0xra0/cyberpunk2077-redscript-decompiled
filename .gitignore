@@ -1,0 +1,22 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build / Output directories
+dist/
+build/
+*.tmp
+
+# Ignore local archives if created in root
+*.zip
+*.tar.gz
+*.7z

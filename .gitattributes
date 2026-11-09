@@ -1,0 +1,16 @@
+# Auto-detect text files and perform LF normalization
+* text=auto eol=lf
+
+# REDscript source files
+*.reds text diff=default
+
+# Markdown and JSON
+*.md text
+*.json text
+*.yml text
+*.yaml text
+
+# Archives
+*.zip binary
+*.tar.gz binary
+*.7z binary
